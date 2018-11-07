@@ -79,7 +79,9 @@
         
         <form>
             
-            Movie: <input type="text" name="movieName" placeholder="Movie keyword" />
+            Search: <input type="text" name="movieName" placeholder="Search by title, director, or actor" style="width: 250px" />
+            
+            
             <br><br>
             Genre:
                 <select name="genre">
