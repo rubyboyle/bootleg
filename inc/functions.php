@@ -64,14 +64,14 @@ function filterMovies() {
                 $sql .= " ORDER BY year";
             }
             
-        }
-        
-        if (isset($_GET['orderBy'])) {
+            if (isset($_GET['orderBy'])) {
             
-            if($_GET['orderBy'] == "dc") {
-                $sql .= " DESC";
-            } else {
-                $sql .= " ASC";
+                if($_GET['orderBy'] == "dc") {
+                    $sql .= " DESC";
+                } else {
+                    $sql .= " ASC";
+                }
+                
             }
             
         }
